@@ -1,0 +1,12 @@
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\bin\Debug\net6.0\Baank_Class_Library.deps.json
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\bin\Debug\net6.0\Baank_Class_Library.dll
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\bin\Debug\net6.0\Baank_Class_Library.pdb
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.csproj.AssemblyReference.cache
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.AssemblyInfoInputs.cache
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.AssemblyInfo.cs
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.csproj.CoreCompileInputs.cache
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.dll
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\refint\Baank_Class_Library.dll
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\Baank_Class_Library.pdb
+C:\Users\ptkuz\source\repos\Bank_Application)OOP_WPF\Baank_Class_Library\obj\Debug\net6.0\ref\Baank_Class_Library.dll

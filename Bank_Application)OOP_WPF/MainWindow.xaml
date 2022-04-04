@@ -1,0 +1,48 @@
+﻿<Window x:Class="Bank_Application_OOP_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank_Application_OOP_WPF"
+        mc:Ignorable="d"
+        Title="Операции со счетами в банке ООП" Height="544" Width="800">
+    <Grid Margin="0,10,0,0">
+        <StackPanel>
+            <Grid>
+                <Button x:Name="AddAccount" IsEnabled="False"  Content="Добавить счет" Margin="0,0,655,0" Click="AddAccount_Click"/>
+
+                <Button x:Name="CloseAccount" IsEnabled="False" Content="Удалить счет" Margin="617,0,38,0" Click="CloseAccount_Click"/>
+                <RadioButton x:Name="radioDeposit" Content="Депозит" Margin="168,0,509,0" Checked="radioDeposit_Checked" Unchecked="radioDeposit_Unchecked"/>
+                <RadioButton x:Name="radioVostreb" Content="Счет до востребоваиня" Margin="272,0,370,0" Checked="radioVostreb_Checked" Unchecked="radioVostreb_Unchecked"/>
+
+            </Grid>
+            <Grid Margin="0,20,0,0">
+                <DataGrid x:Name="dataGridAccounts" AutoGenerateColumns="False" Height="300" SelectionChanged="dataGridAccounts_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Id}" Header="ID счета" Width="200"/>
+                        <DataGridTextColumn Binding="{Binding Sum}" Header="Сумма" Width="200"/>
+                        <DataGridTextColumn Binding="{Binding Percentage}" Header="Процент" Width="200"/>
+                        <DataGridTextColumn Binding="{Binding Days}" Header="Срок в днях" Width="200"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+            <Grid Margin="0,20,0,0">
+                <Label Content="Сумма: "/>
+                <TextBox x:Name="txbx_money" Margin="120,0,211,0" SelectionChanged="txbx_money_SelectionChanged"/>
+            </Grid>
+            <Grid Margin="0,20,0,0">
+                <Button x:Name="btn_add" Content="Добавить деньги на счет" IsEnabled="False" Margin="601,0,10,0" Click="btn_add_Click"/>
+                <Button x:Name="btn_without" IsEnabled="False" Content="Удалить деньги со счета" Margin="407,0,204,0" Click="btn_without_Click"/>
+                </Grid>
+            <Grid Margin="0,20,0,0">
+                <Button x:Name="btn_skipDay"  Content="Пропустить день" Margin="508,0,103,0" Click="btn_skipDay_Click"/>
+            </Grid>
+            <Grid>
+                <Button x:Name="serialize" IsEnabled="False" Content="Сериализовать" Margin="19,0,610,0" Click="button_Click"/>
+                <Button x:Name="desirialize" IsEnabled="False" Content="Десериализовать" Margin="209,0,420,0" Click="desirialize_Click"/>
+            </Grid>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

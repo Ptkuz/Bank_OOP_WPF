@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bank_Application)OOP_WPF/1.0.0": {
+        "dependencies": {
+          "Baank_Class_Library": "1.0.0"
+        },
+        "runtime": {
+          "Bank_Application)OOP_WPF.dll": {}
+        }
+      },
+      "Baank_Class_Library/1.0.0": {
+        "runtime": {
+          "Baank_Class_Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bank_Application)OOP_WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Baank_Class_Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
